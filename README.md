@@ -1,1 +1,2 @@
-# Estácio exercícios,desafios e trabalhos. #
+# Estácio # 
+## Trabalho: Desafio Cartas Super Trunfo ##
