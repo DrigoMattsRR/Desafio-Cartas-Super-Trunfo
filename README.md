@@ -28,3 +28,4 @@ População: 412000
 PIB: 37,10
 Pontos Turísticos: 15
 ````
+No final as cartas irãm se comparar para ver quem ganhou.
