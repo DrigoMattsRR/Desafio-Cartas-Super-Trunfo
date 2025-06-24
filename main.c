@@ -1,6 +1,7 @@
 #include <stdio.h> // Inclui a biblioteca padrão de entrada e saída
+
 int main() {
-    // Definição das variáveis para armazenar as propriedades das cidades
+    // Preenchimento das variaveis
     char estadoA , estadoB;
     char codigo_cartaA[4] , codigo_cartaB[4];
     char cidadeA[20], cidadeB[20];
@@ -12,7 +13,7 @@ int main() {
     float percapita1 , percapita2 ;
     int duelo;
 
-// PREENCHIMENTO DE CADASTRO CARTA 1.
+// PREENCHIMENTO DE CADASTRO CARTA A
 
     printf("CADASTRO CARTA 1:\n");
     printf("Insira estado carta: ");
@@ -31,7 +32,7 @@ int main() {
     scanf(" %d", &pontos_turisticosA);
     printf("\n\n");
 
-    // PREENCHIMENTO DE CADASTRO CARTA 2.
+    // PREENCHIMENTO DE CADASTRO CARTA B
 
     printf("CADASTRO CARTA 2:\n");
     printf("Insira estado carta: ");
@@ -57,7 +58,7 @@ int main() {
     percapita2 = ( float) pibB / populacaoB ;
 
 
-    // IMPRESSAO DE DADOS DE CADA CARTA 1
+    // IMPRESSAO DE DADOS DE CADA CARTA A
 
     printf("CARTA 1\n");
     printf("Estado: %c\n", estadoA);
@@ -71,7 +72,7 @@ int main() {
     printf("Pontos Turisticos: %d\n", pontos_turisticosA);
     printf("\n");
 
-    // IMPRESSAO DE DADOS DE CADA CARTA 2
+    // IMPRESSAO DE DADOS DE CADA CARTA B
 
     printf("CARTA 2\n");
     printf("Estado: %c\n", estadoB);
